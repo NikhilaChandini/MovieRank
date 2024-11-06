@@ -5,7 +5,7 @@ CREATE TABLE genre (
     genre    TEXT (100) 
 );
 
-CREATE TABLE Ranking (
+CREATE TABLE Movie_details (
     movie_id        INTEGER    PRIMARY KEY
                                UNIQUE
                                NOT NULL,
